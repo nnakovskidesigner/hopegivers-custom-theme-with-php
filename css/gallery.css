@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Comfortaa';
+  /* The name you want to give to your font */
+  src: url('./comfortaa/Comfortaa-Bold.ttf') format('truetype');
+  /* Path to the font file in TTF format */
+  /* Add additional src lines for other font formats if available */
+}
+
+body {
+  font-family: 'Comfortaa';
+}
+
+h1 {
+  font-size: 55px;
+  color: white;
+  font-family: 'Comfortaa';
+}
+
+.background-color {
+  background-color: #FD98A0;
+}
+
+.portrait-img {
+  width: 250px;
+  height: 380px;
+  border: 6px solid white;
+  border-radius: 20px;
+}
+
+.portrait-img-mt {
+  margin-top: 30px;
+}
+
+.landscape-img {
+  width: 360px;
+  height: 250px;
+  border: 6px solid white;
+  border-radius: 20px;
+}
+
+.landscape-img-mt {
+  margin-top: 20px;
+}
+
+.portrait-img-pink {
+  width: 250px;
+  height: 380px;
+  border: 6px solid #FD98A0;
+  border-radius: 20px;
+}
+
+.landscape-img-pink {
+  width: 360px;
+  height: 250px;
+  border: 6px solid #FD98A0;
+  border-radius: 20px;
+}
+
+#fullView {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+#fullImage {
+  max-height: 90vh;
+  max-width: 90vw;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  color: white;
+  cursor: pointer;
+  transform: translateY(-50%);
+  background-color: none;
+  padding: 10px;
+}
+
+#leftArrow {
+  left: 20px;
+  color: aliceblue;
+  font-size: 60px;
+}
+
+#rightArrow {
+  right: 20px;
+  color: aliceblue;
+  font-size: 60px;
+}
+
+.mobile-version {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-version {
+    display: none;
+  }
+
+  #cropped-img {
+    /* background-position: center top -225px; */
+    transform: translateY(50);
+  }
+
+
+  .mobile-version {
+    display: contents;
+  }
+
+  .carousel-item {
+    aspect-ratio: 16/9;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .mobile-h1 {
+    color: #FD98A0;
+  }
+
+  .white {
+    background-color: white;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 80px !important;
+    height: 80px !important;
+    fill: #FD98A0 !important;
+  }
+}

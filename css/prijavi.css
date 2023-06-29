@@ -1,0 +1,83 @@
+body{
+  font-family: 'Comfortaa', sans-serif;
+}
+.header {
+font-size: 50px;
+font-weight: bold;
+text-align: center;
+color: white;
+margin-top: 40px;
+}
+h3 {
+margin-top: 0; 
+}
+.paragraph {
+font-size: 25px;
+color: white;
+text-align: center;
+padding-top: 10px;
+margin-top: 36px;
+}
+
+.background-image {
+background-image: url('images/slika.png');
+background-color: rgba(0, 0, 0, 0.7);
+background-size: cover;
+background-position: center;
+background-blend-mode: multiply;
+height: 745px;
+}
+h3 .pad{
+padding-top: 53px;
+}
+.form-container {
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+padding: 20px;
+margin-top: 30px;
+}
+
+.form-container label,
+.form-container input,
+.form-container textarea {
+color: white;
+}
+.crna{
+background-color:	rgba(25, 25, 25, 0.762);
+border-radius: 5px;
+padding: 20px;
+margin-top: 40px;
+}
+.custom-form .form-control {
+font-size: 22px;
+padding: 10px;
+border-radius: 20px;
+}
+.custom-button {
+background-color: rgba(253, 152, 160, 0.7);
+border: 2px solid #FD98A0;
+color: white;
+font-size: 20px;
+padding: 10px 20px;
+border-radius: 5px;
+margin-top: 20px;
+}
+@media (max-width: 767px) {
+.paragraph{margin: 0;
+padding: 0;}
+.header{
+margin-top: 20px;
+}
+.mb-3{
+padding-top: 0px !important;
+}
+.crna{
+margin-top: 10px;
+}
+.background-image{
+height: 1000px;
+}
+h3 {
+margin-top: 5px;
+}
+}

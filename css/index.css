@@ -1,0 +1,367 @@
+body{
+  font-family: 'Comfortaa', cursive;
+  color:  #707070;
+}
+
+#front-page .title-mobile{
+  display: none;
+}
+
+#front-page .pink-section{
+  background-color: #FD98A0;
+  height: 22rem;
+}
+
+#front-page .card img{
+  width: 110px;
+}
+
+#front-page .card-body p {
+  font-size: 24px;
+}
+
+#front-page .card-body a{
+  color: #FD98A0;
+  font-size: 34px;
+  margin-left: 3.125rem;
+}
+
+#front-page .card {
+  border-radius: 3rem;
+  -webkit-box-shadow: 10px 10px 2px 0px rgba(0,0,0,0.2);
+}
+
+#front-page .martop-300{
+  margin-top: -18.75rem;
+}
+
+#front-page .arrows1{
+	margin-left: 20px;
+	height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  #front-page .mq-dn{
+    display: none;
+  }
+
+  #front-page .martop-300{
+    margin-top: 0;
+  }
+
+}
+
+
+#front-page .backg-img{
+  background-image: url("https://hopegivers.com.mk/wp-content/uploads/2023/06/heroimage.png");
+  background-color: black;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+#front-page .pink-text{
+  color: #FD98A0;
+}
+#front-page .prva-sekcija{
+  padding: 20rem 0;
+  text-align: center;
+}
+#front-page .line{
+  margin-top: -13rem;
+}
+
+#front-page .line2{
+  margin-top: -8rem;
+}
+
+#front-page .second-h{
+  margin-top: -3.125rem;
+}
+#front-page .button-1{
+  border: 3px solid #FD98A0;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  font-size: 30px;
+  background-color: rgb(253, 152, 160, 46%);
+}
+
+#front-page .prva-sekcija h1{
+  font-size: 4.5rem
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('./comfortaa/Comfortaa-Bold.ttf') format('woff2'),
+      url('./comfortaa/Comfortaa-Light.ttf') format('woff'),
+      url('./comfortaa/Comfortaa-Regular.ttf') format('truetype');
+}
+
+#front-page .gray-h2{
+  color: #707070;
+}
+#front-page .pink-h1 {
+  color: #FD98A0;
+}
+
+#front-page .pink-line{
+  margin-top: -51px;
+}
+
+#front-page .line-spacing {
+  color: #707070;
+  margin-top: -30px;
+  font-size: 22px;
+}
+
+#front-page .image-container{
+  position: relative;
+  display: inline-block;
+}
+
+#front-page .paper-pin-pink{
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  top: -2.063rem;
+ left: -1.688rem;
+}
+
+
+/* Button properties in first section with image */
+
+#front-page .button-more{
+  border: #FD98A0 solid 3px;
+  float: right;
+  margin-top: 50px;
+  padding: 1rem;
+  border-radius: 10px
+}
+
+#front-page .learn-more{
+  color:#FD98A0;
+  font-weight: 700;
+}
+
+#front-page .arrows{
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+/* Section two with image */
+
+#front-page .pink-line2{
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+
+  body{
+    text-align: center;
+  }
+
+  #front-page .mobile{
+  margin: 60px 0 0 0;
+  width: 100%;
+  text-align: center;
+ }
+
+ #front-page .title-desktop{
+  display: none;
+}
+
+#front-page .title-mobile{
+  display: inline;
+ }
+
+ #front-page .button-1{
+  font-size: 1rem!important;
+
+ }
+
+ #front-page .prva-sekcija h1{
+  font-size: 1.5rem!important;
+ }
+
+ /* .backg-img{
+  background-size: contain;
+ } */
+
+
+ #front-page .button-more{
+  width: 100%;
+  float: none;
+ }
+
+ #front-page .line, .line2, .sledni-nastani-linija, .pink-line, .pink-line2{
+	display:none;
+}
+
+#front-page .mob-main-title{
+	font-size: 20px;
+}
+
+#front-page .paper-pin-pink{
+	height: 3rem;
+	width: 3rem;
+	top: -1.5rem;
+	left: -0.5rem
+}
+
+#front-page .welcome, .celi-title, .nastani-title{
+	padding-bottom: 4rem;
+	
+}
+
+#front-page .prikazni{
+	display: none;
+}
+
+#front-page .backg-img{
+	display:none;
+}
+
+#front-page .backg-img-mob{
+	display: block;
+}
+
+#front-page .nastani-title, .celi-title, .welcome, .partneri-title{
+  font-size: 35px!important;
+}
+
+#front-page .welcome-section{
+  padding: 4rem 0!important;
+}
+
+#front-page .nashite-celi{
+  padding: 2rem 0!important;
+}
+
+#front-page .pertneri-h1{
+  font-size: 35px!important;
+}
+
+}
+
+#front-page .welcome-img{
+  max-width: 100%;
+    height: auto;
+}
+
+#front-page .welcome-section{
+  padding: 6rem 0;
+}
+
+#front-page .nashite-celi{
+  padding: 7rem 0;
+}
+
+#front-page .gray-h2{
+  font-size: 2.5rem;
+}
+
+#front-page .nashite-celi p {
+  font-size: 25px!important;
+}
+
+#front-page .time{
+  text-align: center;
+  margin-top: 150px;
+}
+
+#front-page .place{
+  text-align: center;
+}
+
+#front-page .date{
+  text-align: center;
+}
+
+#front-page .button-3{
+  border: 3px solid #FD98A0;
+  border-radius: 10px;
+  padding: 9px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(253, 152, 160, 46%);
+  margin-bottom: 2rem;
+}
+
+#front-page .clock-icon, .pin-icon, .calendar-icon{
+  width: 25px;
+}
+
+
+#front-page .nastani-title{
+  color: #707070;
+  font-size: 69px;
+}
+
+#front-page .nastani-p{
+  margin-top: 10px;
+  margin-bottom: 70px;
+  font-size: 27px;
+  font-weight: 400;
+  color: #707070;
+}
+
+#front-page .card2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+
+#front-page .sledni-nastani-linija{
+  margin-top: -35px
+}
+
+#front-page .pertneri-h1{
+  color: #707070;
+   font-size: 69px;
+}
+
+#front-page .border-round{
+  border-radius: 20px;
+  -webkit-box-shadow:  2px 2px 5px -2px rgba(0,0,0,0.76);
+  -moz-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.76);
+}
+
+#front-page .btn-2{
+  border-radius: 50%;
+  background-color: #FD98A0!important;
+  width: 7px!important;
+  height: 7px!important;
+  margin-right: 5px!important;
+}
+
+#front-page .btn-2:last-of-type {
+  margin-right: 0!important;
+}
+
+#front-page .carousel-indicators {
+  bottom: -7.25rem;
+}
+
+#front-page .container2 {
+  padding: 4.375rem 0;
+}
+
+#front-page .section-partners{
+  border-top: 1px solid gray;
+}
+#front-page .bg-pink{
+  background-color:#FD98A0;
+  min-height:650px;
+}
+#front-page .margin-minus{
+  margin-top:-3%
+}

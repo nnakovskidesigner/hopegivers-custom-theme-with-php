@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+
+
+      body {
+        background-image: url('https://hopegivers.com.mk/wp-content/uploads/2023/06/founders-of-hopegivers-section-background.png');
+        background-color: rgba(102, 99, 99, 0.94) !important;
+        background-color: grey;
+        background-blend-mode: multiply;
+        width: auto;
+        height: auto;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        font-family: 'Comfortaa', sans-serif !important;
+      }
+
+      h1 {
+        font-size: 80px !important;
+        padding-top: 80px;
+      }
+
+      .typeofdonation {
+        background-color: rgba(0, 0, 0, 0.61) !important;
+        border-radius: 20px;
+        min-height: 351px;
+        max-width: 1640px;
+      }
+
+      .btn-primary {
+        background-color: #FD98A0 !important;
+        border-radius: 46px !important;
+      }
+
+      /* New CSS */
+
+      .donation-container {
+        background-color: rgba(0, 0, 0, 0.61);
+        border-radius: 30px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1640px !important;
+        margin: 0 auto;
+      }
+
+      .donation-text {
+        color: white;
+        text-align: left;
+        margin-bottom: 20px;
+        margin-left: 105px;
+      }
+
+      .donation-buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+      }
+
+      .donation-button {
+        background-color: #FD98A0;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 15px;
+        color: white;
+        cursor: pointer;
+        min-width: 170px;
+        min-height: 170px !important;
+        margin-bottom: 10px;
+        margin-right: 22px;
+      }
+
+      @media (max-width: 767px) {
+        .donation-container {
+          flex-direction: column;
+          align-items: center;
+          margin-top: 36px;
+        }
+
+        .donation-text {
+          margin-left: 0;
+          text-align: center;
+        }
+
+        .donation-buttons {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .donation-button {
+          margin-right: 0;
+        }
+
+        .displaynonemobile {
+          display: none;
+        }
+
+        input{
+          font-size: 30px;
+        }
+        
+        .donationsheading{
+          font-size: 2.6rem!important;
+         }
+      }
+      @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+    font-family: 'Comfortaa', sans-serif !important;
+}
+
+
+body{
+    background-image: url('https://hopegivers.com.mk/wp-content/uploads/2023/06/founders-of-hopegivers-section-background.png');
+    background-color: rgba(102, 99, 99, 0.94) !important;
+    background-color: grey;
+    background-blend-mode: multiply;
+   
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.white-text{
+    color: white;
+    font-size: 2.6rem;
+}
+
+.inputfields {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 2rem;
+  }
+
+.white-text-h4{
+ color: white;
+ font-size: 1.5rem;
+}
+.donationamount-button:hover{
+    background-color: #bd6f75;
+}
+
+.donationamount-button {
+    background-color: #FD98A0;
+    border: none;
+    border-radius: 20px;
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    min-width: 150px;
+    margin-right: 3%;
+    font-size: 2rem;
+}
+
+.sendbutton {
+    background-color: rgba(253, 152, 160, 0.4);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    min-width: 150px;
+    margin-right: 3%;
+    font-size: 1.3rem;
+    border: #FD98A0 3px solid;
+    padding-left: 50px;
+    padding-right:50px;
+  }
+
+
+  @media (max-width:768px) {
+ 
+    .margin-mobile{
+        margin-top: 70px;
+    }
+
+   
+}

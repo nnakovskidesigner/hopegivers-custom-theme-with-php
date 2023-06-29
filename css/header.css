@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap');
+
+  .navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .navbar-logo img {
+    height: 100px; /* Adjust the height as needed */
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-right: 15px;
+    position: relative;
+    padding-left: 10px; /* Add left padding for spacing between dividers and menu items */
+    padding-right: 10px; /* Add right padding for spacing between dividers and menu items */
+  }
+  
+  .navbar-menu li a {
+    color:gray;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "Comfortaa";
+  }
+
+  .navbar-menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-menu li::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 50%;
+  }
+  
+  .navbar-menu li:last-child::after {
+    display: none;
+  }
+  
+  .navbar-donation {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-donation a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .padding-img{
+    margin-right: 10px;
+  }
+  .donation-button {
+    background: rgb(253,152,160);
+    background: linear-gradient(90deg, rgba(253,152,160,1) 0%, rgba(252,148,159,1) 35%, rgba(208,68,114,1) 100%);
+    padding-inline: 2em;
+    padding-block: 0.75em;
+    border-radius: 13px;
+  }
+  
+  
+
+  
+
+
+
+       
+
+/*Prva sekcija*/
+#blog .polaroid {
+  background-color: white;
+  box-shadow: 2px 2px 37px 1px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 2px 2px 37px 1px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 2px 2px 37px 1px rgba(0, 0, 0, 0.48);
+  position: relative;
+  width: 23.5rem;
+  height: 28.125rem;
+}
+
+#blog .polaroid-slika {
+  position: absolute;
+  left: 2.5rem;
+  bottom: 2.5rem;
+  width: 100%;
+  max-width: 18.5rem;
+  height: 22.813rem;
+}
+
+#blog .pin {
+  position: absolute;
+  top: -10px;
+  left: 11.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 1;
+}
+
+#blog .circle-shadow {
+  -webkit-box-shadow: 2.5px 3px 11px 6.5px #c4c4c4;
+  -moz-box-shadow: 2.5px 3px 11px 6.5px #c4c4c4;
+  box-shadow: 2.5px 3px 11px 6.5px #c4c4c4;
+  position: absolute;
+  top: 1.5rem;
+  left: 11.25rem;
+}
+
+#blog .main-h {
+  color: #707070;
+}
+
+#blog .grey-p {
+  color: #707070;
+  line-height: 1.875rem;
+  letter-spacing: 0.047rem;
+}
+
+#blog .pink-h {
+  color: #FD98A0;
+}
+
+#blog .date {
+  color: #FD98A0;
+}
+
+#blog .calendar {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/*Vtora sekcija*/
+#blog .vtora-sekcija {
+  background-color: #FD98A0;
+}
+
+#blog .white-h {
+  color: white;
+}
+
+#blog .white-p {
+  color: white;
+  line-height: 1.875rem;
+  letter-spacing: 0.047rem;
+}
+
+#blog .read-more-white {
+  color: white;
+}
+
+#blog .date-white {
+  color: white;
+}
+
+#blog .polaroid-vs {
+  padding-left: 3.75rem;
+}
+
+#blog .tekst-vs {
+  margin-right: 3.438rem;
+}
+
+@media (max-width: 768px) {
+  #blog body {
+    text-align: center!important;
+  }
+  #blog .pink-line {
+    display: none;
+  }
+  #blog .main-h {
+    margin-bottom: 3.125rem;
+  }
+  #blog .mobilna-slika {
+    margin-bottom: 3.125rem;
+  }
+
+  #blog .polaroid-slika {
+    max-width: 15.5rem;
+  }
+}
+
+  
+  

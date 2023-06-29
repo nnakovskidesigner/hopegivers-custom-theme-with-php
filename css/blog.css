@@ -1,0 +1,112 @@
+     
+
+/*Prva sekcija*/
+#blog .polaroid {
+  background-color: white;
+  box-shadow: 2px 2px 37px 1px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 2px 2px 37px 1px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 2px 2px 37px 1px rgba(0, 0, 0, 0.48);
+  position: relative;
+  width: 23.5rem;
+  height: 28.125rem;
+}
+
+#blog .polaroid-slika {
+  position: absolute;
+  left: 2.5rem;
+  bottom: 2.5rem;
+  width: 100%;
+  max-width: 18.5rem;
+  height: 22.813rem;
+}
+
+#blog .pin {
+  position: absolute;
+  top: -10px;
+  left: 11.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 1;
+}
+
+#blog .circle-shadow {
+  -webkit-box-shadow: 2.5px 3px 11px 6.5px #c4c4c4;
+  -moz-box-shadow: 2.5px 3px 11px 6.5px #c4c4c4;
+  box-shadow: 2.5px 3px 11px 6.5px #c4c4c4;
+  position: absolute;
+  top: 1.5rem;
+  left: 11.25rem;
+}
+
+#blog .main-h {
+  color: #707070;
+}
+
+#blog .grey-p {
+  color: #707070;
+  line-height: 1.875rem;
+  letter-spacing: 0.047rem;
+}
+
+#blog .pink-h {
+  color: #FD98A0;
+}
+
+#blog .date {
+  color: #FD98A0;
+}
+
+#blog .calendar {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/*Vtora sekcija*/
+#blog .vtora-sekcija {
+  background-color: #FD98A0;
+}
+
+#blog .white-h {
+  color: white;
+}
+
+#blog .white-p {
+  color: white;
+  line-height: 1.875rem;
+  letter-spacing: 0.047rem;
+}
+
+#blog .read-more-white {
+  color: white;
+}
+
+#blog .date-white {
+  color: white;
+}
+
+#blog .polaroid-vs {
+  padding-left: 3.75rem;
+}
+
+#blog .tekst-vs {
+  margin-right: 3.438rem;
+}
+
+@media (max-width: 768px) {
+  #blog body {
+    text-align: center!important;
+  }
+  #blog .pink-line {
+    display: none;
+  }
+  #blog .main-h {
+    margin-bottom: 3.125rem;
+  }
+  #blog .mobilna-slika {
+    margin-bottom: 3.125rem;
+  }
+
+  #blog .polaroid-slika {
+    max-width: 15.5rem;
+  }
+}

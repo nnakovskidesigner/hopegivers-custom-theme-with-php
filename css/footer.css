@@ -1,0 +1,61 @@
+#footer-new a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 15px;
+  }
+#footer-new a:hover{
+    color: white;
+  }
+  #footer-new  .footer{
+    background-color: rgb(92, 91, 91);
+    padding : 75px 50px;
+  }
+  #footer-new body{
+    font-family: 'Comfortaa', cursive;
+  }
+  #footer-new h2{
+    color: #FD98A0;
+  }
+  #footer-new i{
+    padding-right: 15px;
+    font-size: 25px;
+  }
+  #footer-new h2{
+    padding-bottom: 20px;
+  }
+  #footer-new .kolona{
+    border-left: 5px solid #FD98A0;
+    padding-left: 50px;
+  }
+  #footer-new .rozeva-linija{
+    color: #FD98A0;
+    border-radius:50px;
+    width: 4px;
+  
+  }
+  #footer-new img{
+    width: 120px;
+    height: 120px;
+  }
+  #footer-new li {
+    list-style: none;
+  }
+  @media(max-width:768px){
+    #footer-new.mobilna{
+    margin-bottom: 30px;
+    }
+    #footer-new ul{
+      padding: 0;
+    }
+    #footer-new title{
+      font-size: 18px;
+    }
+    #footer-new .kolona{
+      padding: 0;
+    }
+    #footer-new .fs-14{
+      font-size: 14px;
+    }
+  }
+  }
